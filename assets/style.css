@@ -60,6 +60,14 @@ body {
 	left: 0;
 	z-index: -1;
 }
+#about figure{
+	width: 100%;
+	height: 572px;
+	background-image: url("./images/nina_574-1920.webp");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
 
 .picture {
 	flex: 1;
@@ -69,8 +77,8 @@ body {
 
 .picture img {
 	width: 100%;
-
 }
+
 #about-me {
 	flex: 2
 }
@@ -211,6 +219,14 @@ body {
 	right: 0;
 	z-index: -1;
 }
+.right figure{
+	width: 100%;
+	height: 100%;
+	background-image: url("./images/camera_574-1920.webp");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
 .form-container {
 	flex : 2;
 
@@ -248,6 +264,10 @@ input[type="submit"] {
 	.picture {
 		flex : 2;
 	}
+	#about figure{
+		height: 352px;
+		background-image: url("./images/nina_353-1180.webp");
+	}
 	#about, #contact .container {
 		align-items: center;
 	}
@@ -258,12 +278,14 @@ input[type="submit"] {
 	#about-me h6, #about-me p {
 		width: 100%;
 	}
+	.right figure{
+		background-image: url("./images/camera_353-1180.webp");
+	}
 }
 
 @media all and (max-width: 1000px) {
 	#about{
 		flex-direction: column;
-
 	}
 	.picture {
 		width: 50%;
@@ -276,6 +298,10 @@ input[type="submit"] {
 		top: 0;
 		left: 0;
 		z-index: -1;
+	}
+	#about figure{
+		height: 298px;
+		background-image: url("./images/nina_299-1000.webp");
 	}
 	.about-me__title{
 		text-align: center;
@@ -317,6 +343,9 @@ input[type="submit"] {
 		right: 0;
 		z-index: -1;
 	}
+	.right figure{
+		background-image: url("./images/camera_299-1000.webp");
+	}
 }
 
 @media all and (max-width: 650px) {
@@ -336,6 +365,13 @@ input[type="submit"] {
 	.picture.left::before, .picture.right::before {
 		height: 150px;
 	}
+	#about figure{
+		height: 193px;
+		background-image: url("./images/nina_194-650.webp");
+	}
+	.right figure{
+		background-image: url("./images/camera_194-650.webp");
+	}
 	#services .container {
 		align-items: center;
 	}
@@ -353,4 +389,3 @@ input[type="submit"] {
 		width: 80%;
 	}
 }
-
