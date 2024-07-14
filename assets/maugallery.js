@@ -242,7 +242,7 @@
       $(".active-tag").removeClass("active active-tag");
       $(this).addClass("active active-tag");
 
-       tag = $(this).data("images-toggle");
+       let tag = $(this).data("images-toggle");
 
       $(".gallery-item").each(function() {
         $(this)
