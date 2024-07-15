@@ -6,6 +6,9 @@ body {
 	font-family: 'Inter', Verdana, Geneva, Tahoma, sans-serif;
 	font-style: normal;
 }
+.img-fluid {
+    height: 100% !important;
+}
 .top-header {
 	background-color: white;
 	position: sticky;
@@ -44,6 +47,10 @@ body {
 .social-link {
 	font-size: 0%;
 }
+.d-block {
+    width: 100%;
+	max-height: 888px;
+}
 #about {
 	display: flex;
 	background-color: #F6D2B8;
@@ -51,7 +58,6 @@ body {
 	padding-block: 100px;
 	position: relative;
 }
-
 .picture.left::before {
 	content: ' ';
 	background-color: #E5975F;
@@ -64,7 +70,7 @@ body {
 }
 #about figure{
 	width: 100%;
-	height: 572px;
+	height: 574px;
 	background-image: url("./images/nina_574-1920.webp");
 	background-size: cover;
 	background-repeat: no-repeat;
