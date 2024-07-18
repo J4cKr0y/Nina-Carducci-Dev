@@ -8,7 +8,7 @@ const schema =
 	  "streetAddress": "68 avenue Alsace-Lorraine",
 	  "addressLocality": "Bordeaux",
 	  "postalCode": "33200",
-	  "addressCountry": "France"},
+	  "addressCountry": "FR"},
 	"telephone": "+33556677889",
 	"openingHoursSpecification": [
 	  {"@type": "OpeningHoursSpecification",
@@ -20,7 +20,9 @@ const schema =
 		  "Friday"],
 		"opens": "10:00",
 		"closes": "19:00"}],
-	"description": "Photographe professionnelle"
+	"description": "Photographe professionnelle",
+	"priceRange": "50€ - 400€",
+	"image": "https://j4ckr0y.github.io/Nina-Carducci-Dev/assets/images/nina_353-1180.webp"
 }
 let script = document.createElement('script');
 script.type = "application/ld+json";
